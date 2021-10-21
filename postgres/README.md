@@ -1,4 +1,5 @@
-Pre-requisites: Install PostgreSQL library using below command
+# Pre-requisites
+Install PostgreSQL library using below command
 ```python
 pip install psycopg2
 ```
