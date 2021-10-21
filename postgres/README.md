@@ -1,9 +1,10 @@
-# Pre-requisites
+# Steps for inserting one row into a PostgreSQL table
+## Pre-requisites
 Install PostgreSQL library using below command
 ```python
 pip install psycopg2
 ```
-## Steps for inserting one row into a PostgreSQL table
+
 To insert a row into a PostgreSQL table in Python, you use the following steps:
 
 First, connect to the PostgreSQL database server by calling the `connect()` function of the psycopg module.
