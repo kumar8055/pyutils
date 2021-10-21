@@ -31,7 +31,7 @@ def csv_insert():
     ## Prepare a SQL Query, (%s,%s) -- number of values you are passing as strings
     ## ex: INSERT INTO test_employee(emp_id,emp_name) VALUES(1,'Mike')
     sql = "INSERT INTO test_employee(emp_id,emp_name) VALUES(%s,%s)"
-    csv_file = "/apps/disk7/elastic_monitoring/final_scripts/misc/postgresconnect/emp_list.csv"
+    csv_file = "/users/postgres/emp_list.csv"
     ## Call custom insert function to load postgres table
     custom_insert(sql,csv_file)
 
