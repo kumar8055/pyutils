@@ -40,3 +40,4 @@ Finally, close the connection to the PostgreSQL database server by calling the `
 cur.close()
 conn.close()
 ```
+-- Enjoy coding --
