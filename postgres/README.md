@@ -1,4 +1,4 @@
-# Steps for inserting one row into a PostgreSQL table
+# Steps for inserting data into a PostgreSQL table
 ## Pre-requisites
 Install PostgreSQL library using below command
 ```python
